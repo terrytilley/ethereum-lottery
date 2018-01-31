@@ -10,10 +10,7 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js, css, json}": [
-      "eslint . --fix",
-      "git add"
-    ]
+    "*.{js, css, json}": ["eslint . --fix", "git add"]
   },
   "dependencies": {
     "dotenv": "^4.0.0",
